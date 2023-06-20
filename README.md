@@ -1,3 +1,4 @@
+:warning: kernel does not work in VSCode
 
 To Install:
 
@@ -25,5 +26,6 @@ pipenv run jupyter kernelspec list
 pipenv run jupyter kernelspec uninstall unwanted-kernel
 ```
 see: https://stackoverflow.com/questions/42635310/remove-kernel-on-jupyter-notebook
+
 
 
