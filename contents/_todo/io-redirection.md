@@ -1,0 +1,1 @@
+ [bash - What does " 2>&1 " mean? - Stack Overflow](https://stackoverflow.com/questions/818255/what-does-21-mean) 
