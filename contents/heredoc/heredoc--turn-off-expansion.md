@@ -1,4 +1,4 @@
-# Heredoc turn off  parameter expansion
+# Turn off  parameter expansion in heredoc
 
 Ref: [Bash Heredoc | Linuxize](https://linuxize.com/post/bash-heredoc/) 
 
