@@ -4,7 +4,7 @@ Ref: [Bash Heredoc | Linuxize](https://linuxize.com/post/bash-heredoc/)
 
 
 
-Suppose you want to create a script that required the location script: 
+Suppose you want to create a script that required the location of the script: 
 
 ```bash
 #!/usr/bin/env sh
@@ -37,7 +37,7 @@ Notice that the shell executes `$(dirname "$0")` and `$(pwd)` in the body of the
 
 
 
-To fix this you have to excapte the dollor signs:
+To fix this you have to escape the dollor signs:
 
 ```
 cat << EOF > myscript.sh
@@ -48,7 +48,7 @@ EOF
 
 ```
 
-A better way is to enclose the delimiter `EOF` with quotes:
+A better way is to enclose the Heredoc's delimiter `EOF` with quotes:
 
 ```
 cat << "EOF"
@@ -58,5 +58,5 @@ echo Your current location is $(pwd)
 EOF
 ```
 
-When the delimiter is quoted, the shell will not perform parameter expansion and command substitution. 
+When the delimiter is quoted, parameter expansion and command substitution will be suppressed. 
 
