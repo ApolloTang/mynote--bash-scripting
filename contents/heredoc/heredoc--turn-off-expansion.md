@@ -51,7 +51,7 @@ EOF
 A better way is to enclose the Heredoc's delimiter `EOF` with quotes:
 
 ```
-cat << "EOF"
+cat << "EOF" > myscript.sh
 #!/usr/bin/env sh
 echo This script is located in $(dirname -- "$0")
 echo Your current location is $(pwd)
