@@ -18,9 +18,9 @@ pipenv run jupyter notebook
 
 
 
-## :warning: kernel does not work in VSCode
+## <strike>:warning: kernel does not work in VSCode</strike>
 
-This is probably a bug
+<strike>This is probably a bug</strike>
 
 
 
