@@ -32,13 +32,18 @@ pipenv --rm
 pipenv install
 ```
 
-2. remove and reinstall jupyter's bash kernel
+2. remove and reinstall Jupyter's bash kernel
 ```
 pipenv shell 
 jupyter kernelspec uninstall bash
 python -m bash_kernel.install
 ```
 
+Note: you can list the installed kernels with:
+
+```
+jupyter kernelspec list
+```
 
 ## Reference:
 
