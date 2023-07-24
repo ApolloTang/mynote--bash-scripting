@@ -4,12 +4,19 @@
 
 [Effective Shell | Effective Shell](https://effective-shell.com/) 
 
+[Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/abs-guide.html) 
+
 
 
 ---
 
+
+
 Tutorial by https://github.com/lhunath
+
 - [https://guide.bash.academy/](https://guide.bash.academy/) 
 - Repo: https://github.com/lhunath/guide.bash.academy
 - [EnglishFrontPage - Greg's Wiki](https://mywiki.wooledge.org/) 
+
+
 
