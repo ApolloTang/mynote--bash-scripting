@@ -1,0 +1,1 @@
+ [error handling - How do I set $? or the return code in Bash? - Stack Overflow](https://stackoverflow.com/questions/10448160/how-do-i-set-or-the-return-code-in-bash) 

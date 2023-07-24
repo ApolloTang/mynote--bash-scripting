@@ -1,0 +1,1 @@
+ [Bash read Command | Linuxize](https://linuxize.com/post/bash-read/) 
