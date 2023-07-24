@@ -18,11 +18,11 @@ By the same author: [Greg's Wiki](https://mywiki.wooledge.org/) . It has some pa
 
 
 
-## Misc
+## Misc Tutorial
 
 [Linux Scripting Series by Baeldung on Linux](https://www.baeldung.com/linux/linux-scripting-series) 
 
-[Bash Scripting: Everything you need to know about Bash-shell programming by Uday Hiwarale (Medium article)](https://medium.com/sysf/bash-scripting-everything-you-need-to-know-about-bash-shell-programming-cd08595f2fba) 
+[(Medium article) Bash Scripting: Everything you need to know about Bash-shell programming by Uday Hiwarale ](https://medium.com/sysf/bash-scripting-everything-you-need-to-know-about-bash-shell-programming-cd08595f2fba) 
 
 [Effective Shell | Effective Shell](https://effective-shell.com/) 
 
