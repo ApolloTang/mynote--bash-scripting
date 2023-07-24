@@ -10,6 +10,8 @@ python -m bash_kernel.install
 
 
 
+
+
 ## To Run after installation:
 
 ```
@@ -17,10 +19,6 @@ pipenv run jupyter notebook
 ```
 
 
-
-## :warning: kernel sometime does not work in VSCode
-
-This is probably a bug
 
 
 
@@ -45,11 +43,23 @@ Note: you can list the installed kernels with:
 jupyter kernelspec list
 ```
 
-## Reference:
+Reference:
 
 https://github.com/takluyver/bash_kernel
 
 https://stackoverflow.com/questions/42635310/remove-kernel-on-jupyter-notebook
 
 
+
+
+
+## Bugs
+
+### Kernel sometimes does not work in VSCode
+
+### Rendering on github is sometimes problematic:
+
+see:  [mynote--bash-scripting/contents/variable-scope/variable-scope-of-a-function/variable-scope-of-a-function.ipynb at main · ApolloTang/mynote--bash-scripting](https://github.com/ApolloTang/mynote--bash-scripting/blob/main/contents/variable-scope/variable-scope-of-a-function/variable-scope-of-a-function.ipynb) 
+
+![bug on github](./imgs/rendering-bug-on-github.png)
 
