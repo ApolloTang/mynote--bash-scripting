@@ -1,0 +1,1 @@
+ [Advanced Bash-Scripting Guide#SUBSHELLS](https://tldp.org/LDP/abs/html/abs-guide.html#SUBSHELLS) 
