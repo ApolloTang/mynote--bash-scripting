@@ -4,7 +4,19 @@
 
 
 
----
+## POSIX 2
+
+[POSiX 2. Shell Command Language](https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/)
+
+
+
+# Greg's Wiki
+
+ [BashGuide - Greg's Wiki](https://mywiki.wooledge.org/BashGuide) 
+
+ [BashFAQ - Greg's Wiki](https://mywiki.wooledge.org/BashFAQ) 
+
+
 
 
 
