@@ -11,6 +11,10 @@
 
  [How to Exit Bash Scripts Effectively: Linux Shell Guide](https://ioflood.com/blog/bash-exit-script/) 
 
+ [How to use exit code to read from terminal, from script and with logical operators - GeeksforGeeks](https://www.geeksforgeeks.org/how-to-use-exit-code-to-read-from-terminal-from-script-and-with-logical-operators/) 
+
+ [Bash get exit code of command on a Linux / Unix - nixCraft](https://www.cyberciti.biz/faq/bash-get-exit-code-of-command) 
+
 
 
 Use ‘exit’ sparingly and only when necessary, such as when an error occurs that the script cannot recover from.
