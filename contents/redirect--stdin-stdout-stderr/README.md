@@ -38,6 +38,8 @@ command 1> filename
 my-list-file.sh 1> files-listed.txt 2>error.txt
 ```
 
+@TODO link to note 
+
 ## Case study: Some output of successful execution is redirected to stderr
 
 - [Some output of successful execution is redirected to stderr](./some-successful-output-is-redirected-to-stderr/README.ipynb)
@@ -45,9 +47,9 @@ my-list-file.sh 1> files-listed.txt 2>error.txt
 
 ## Meaning of ampersand (&): 
 
-The following 4 lines are doing the name thing:
+The following 4 lines are doing the same thing:
 ```
 java -version 1>java_version.txt 2>java_version.txt  # success and error output to the same file
-java -version 1>java_version.txt 2>&1                # error output to the file where success output is store
+java -version 1>java_version.txt 2>&1                # error output to the file where success output is stored
 java -version &>java_version.txt                     # success and error output to the same file
 ```
