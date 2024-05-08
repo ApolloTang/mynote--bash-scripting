@@ -34,22 +34,44 @@ command 1> filename
 
 ## Separate stdout and stderr
 
+You can save success output and error to separate file:
+
 ```
-my-list-file.sh 1> files-listed.txt 2>error.txt
+some_command 1> files-listed.txt 2>error.txt
 ```
 
-@TODO link to note 
+ 
+## Some output of successful execution is redirected to stderr
 
-## Case study: Some output of successful execution is redirected to stderr
+Some commands will execute successfully without error, but the result is direct to stderr; an example of this is the `java -version`.  If you try to save the output of stdout of this command to a file: 
+
+```
+java -version > version.txt
+```
+
+Nothing will be saved, and the version will still be directed to the terminal. To save the version to the file, you have to direct stderr to the file: 
+
+```
+java -version 2> version.txt
+```
+
+Sometimes, you just don't know where the author of the software has directed the output to. The best way to deal with this is to save both stdout and stderr:
+
+```
+java -version 1>version.txt 2>version.txt
+```
+
+You can also use short-hand:
+
+```
+java -version 1>version.txt 2>version.txt  # success and error output to the same file
+java -version 1>version.txt 2>&1           # error output to the file where success output is stored
+java -version &>version.txt                # success and error output to the same file
+```
+
+The above 3 statements are doing the same thing: direct both stdout and stderr to the same file.
+
+See the accompanying notebook for this:
 
 - [Some output of successful execution is redirected to stderr](./some-successful-output-is-redirected-to-stderr/README.ipynb)
 
-
-## Meaning of ampersand (&): 
-
-The following 4 lines are doing the same thing:
-```
-java -version 1>java_version.txt 2>java_version.txt  # success and error output to the same file
-java -version 1>java_version.txt 2>&1                # error output to the file where success output is stored
-java -version &>java_version.txt                     # success and error output to the same file
-```
