@@ -1,0 +1,1 @@
+ [Return value in a Bash function - Stack Overflow](https://stackoverflow.com/questions/17336915/return-value-in-a-bash-function) 
