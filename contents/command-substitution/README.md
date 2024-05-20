@@ -1,4 +1,4 @@
- [Why is $(...) preferred over `...` (backticks)?](https://mywiki.wooledge.org/BashFAQ/082) 
+ [Why is $(...) preferred over &#96;...&#96; (backticks)?](https://mywiki.wooledge.org/BashFAQ/082) 
 
  [bash - What is the difference between $(command) and `command` in shell programming? - Stack Overflow](https://stackoverflow.com/questions/4708549/what-is-the-difference-between-command-and-command-in-shell-programming) 
 
