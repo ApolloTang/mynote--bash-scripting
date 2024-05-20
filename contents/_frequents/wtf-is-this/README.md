@@ -1,4 +1,4 @@
-## $?
+## `$?`
 
 `$?` Expands to the exit status of the most recently executed foreground pipeline.
 
@@ -23,3 +23,13 @@ The `|| :` will force a zero exit status.
 Redirects `stderr` (`fd` 2) to the black hole (discards the output of the command).
 
 [command line - What does 2>/dev/null mean? - Ask Ubuntu](https://askubuntu.com/a/350212/849866)
+
+
+## `${ParameterName}`
+
+This is parameter expansion. Same as `$ParameterName`. Adding curly brace for the purpose of telling bash where the name ends, for example:
+
+```
+echo "$name's current record is ${time}s."
+```
+
