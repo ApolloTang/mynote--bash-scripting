@@ -33,3 +33,5 @@ This is parameter expansion. Same as `$ParameterName`. Adding curly brace for th
 echo "$name's current record is ${time}s."
 ```
 
+Note: `${$n}` is a syntax error in bash, inside the braces, you can only have a variable name.
+
