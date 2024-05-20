@@ -35,3 +35,6 @@ echo "$name's current record is ${time}s."
 
 Note: `${$n}` is a syntax error in bash, inside the braces, you can only have a variable name.
 
+## `$(…)`
+
+`$(…)` runs the command specified inside the parentheses in a subshell (i.e. in a separate process that inherits all settings such as variable values from the current shell), and gathers its output. [ref](https://stackoverflow.com/a/11065196/3136861)
