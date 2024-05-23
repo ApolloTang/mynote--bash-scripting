@@ -9,7 +9,7 @@ There are seven kinds of expansion performed (listed in the order of expansions)
 3. parameter and variable expansion
 4. arithmetic expansion
 5. command substitution
-6. [word splitting](./word-splitting/README.md)
+6. word splitting (also called field splitting) [[§link-to-sec](./word-splitting/README.md)]
 7. filename expansion
 
 In addition to the above, some systems also have process substitution.

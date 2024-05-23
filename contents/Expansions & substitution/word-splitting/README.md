@@ -5,4 +5,4 @@
 
 
 word splitting example
-[link-to-jynb](./word-splitting--nb/word-splitting-eg.ipynb)
+[[link-to-jynb](./word-splitting--nb/word-splitting-eg.ipynb)]
