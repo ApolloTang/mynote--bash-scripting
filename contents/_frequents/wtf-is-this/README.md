@@ -38,3 +38,11 @@ Note: `${$n}` is a syntax error in bash, inside the braces, you can only have a 
 ## `$(…)`
 
 `$(…)` runs the command specified inside the parentheses in a subshell (i.e. in a separate process that inherits all settings such as variable values from the current shell), and gathers its output. [ref](https://stackoverflow.com/a/11065196/3136861)
+
+
+
+## `>>>`
+
+ [bash - What does <<< mean? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/80362/what-does-mean/80372#80372) 
+
+ [5 Best Methods to Split Strings in Bash Scripts](https://linuxier.com/how-to-to-split-strings-in-bash-scripts/) 
