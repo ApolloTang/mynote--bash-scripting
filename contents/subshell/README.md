@@ -11,3 +11,9 @@
 
 
  [linux - What is the difference between executing a Bash script vs sourcing it? - Super User](https://superuser.com/questions/176783/what-is-the-difference-between-executing-a-bash-script-vs-sourcing-it) 
+
+
+
+## To Read
+
+ [bash - What does <<< mean? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/a/80372/62821) 
