@@ -1,6 +1,6 @@
 # Parameters
 
-Ref: [Shell Parameters](https://www.gnu.org/software/bash/manual/bash.html#Shell-Parameters)
+Ref: [gnu.org](https://www.gnu.org/software/bash/manual/bash.html#Shell-Parameters)
 
 
 
@@ -8,23 +8,28 @@ Ref: [Shell Parameters](https://www.gnu.org/software/bash/manual/bash.html#Shell
 
 In Bash, parameters are entities that store values.
 
-Parameters can be divided into 3 categoies:
+Parameters can be divided into 3 categories:
 
 - variables
 - positional parameter
 - special parameter
 
-Ref:  [The difference between parameter and variable in bash - Linux Programming & Scripting - Linux Forum](https://forum.linuxconfig.org/t/the-difference-between-parameter-and-variable-in-bash/1009) 
+Ref:  [The difference between parameter and variable in bash, Linux Forum](https://forum.linuxconfig.org/t/the-difference-between-parameter-and-variable-in-bash/1009) 
 
 
 
 ## Variable 
 
-The variables are the parameters that are defined by the user.  ([Ref geeksforgeeks.org](https://www.geeksforgeeks.org/shell-script-to-demonstrate-special-parameters-with-example/) )
+The variables are the parameters that are defined by the user.  (Ref: [geeksforgeeks.org](https://www.geeksforgeeks.org/shell-script-to-demonstrate-special-parameters-with-example/) )
 
-Its name must be comprised solely of alphanumeric and underscore characters, and it may not begin with a numeral.  (Ref:  [Bash Reference Manual](https://www.gnu.org/software/bash/manual/html_node/Definitions.html#index-name) ).
+Its name must be comprised solely of alphanumeric and underscore characters, and it may not begin with a numeral.  (Ref:  [gnu.org #index-name](https://www.gnu.org/software/bash/manual/html_node/Definitions.html#index-name) ).
 
-A Variable has a value. In adition it may have attributes.
+A Variable, in addition to having a value. It may also also have attributes. The values are assigned with the assignment statement:
+
+```
+name=[value]
+```
+And the attributes are assigned using the [declare](https://www.gnu.org/software/bash/manual/bash.html#index-declare)  building command
 
 
 
@@ -34,11 +39,7 @@ A Variable has a value. In adition it may have attributes.
 
 ## Positional parameter
 
-Positional parameter has name that are integer starting from 1.
-
-They are assigned from the shell’s arguments when it is invoked
-
-They may not be assigned to with assignment statements. but may be reassigned or set using the `set` and `shift` builtin command.
+The positional parameter uses integers as its name. The integer values start at 1. Unlike the variable mentioned above, assignment is forbidden with the assignment statements. These parameters receive their value from the shell’s arguments when it is invoked.  It may be reassigned or set using the [set](https://www.gnu.org/software/bash/manual/bash.html#index-set) and [shift](https://www.gnu.org/software/bash/manual/bash.html#index-shift) built-in commands.
 
 Ref:  [Positional Parameters (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Positional-Parameters.html) 
 
