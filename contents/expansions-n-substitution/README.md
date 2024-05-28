@@ -13,11 +13,3 @@ There are seven kinds of expansion performed (listed in the order of expansions)
 7. filename expansion
 
 In addition to the above, some systems also have process substitution [[§link-to-sec](./process-substitution/README.md)].
-
-
-
-
-
-## To Read
-
- [An introduction to parameter expansion in Bash | Opensource.com](https://opensource.com/article/17/6/bash-parameter-expansion) 
