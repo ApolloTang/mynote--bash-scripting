@@ -26,7 +26,7 @@ Ref:
 
 ## 1. Positional parameter related
 
-`#`, `*`, and `@` are related to the positional parameters. Recall that the positional parameters use natural number as their name, and they receive their value from the shell's arguments when a shell is invoked.
+`#`, `*`, and `@` are related to the positional parameters. Recall that the positional parameters use  [natural number](https://en.wikipedia.org/wiki/Natural_number) as their name, and they receive their value from the shell's arguments when a shell is invoked.
 
 `$#` expands to the cardinal of the positional parameters the shell is invoked with.
 
@@ -42,10 +42,5 @@ When `$*` and `$@` are surrounded with a double quote (namely: `"$*"` and `"$@"`
 
 
 ---
-
-
-
-
-
 
 
