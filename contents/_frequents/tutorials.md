@@ -30,7 +30,11 @@ By the same author: [Greg's Wiki](https://mywiki.wooledge.org/) . It has some pa
 
 
 
+
+
 ## Misc Tutorial
+
+[bash Scripting](http://linuxsig.org/files/bash_scripting.html) 
 
 [Linux Scripting Series by Baeldung on Linux](https://www.baeldung.com/linux/linux-scripting-series) 
 

@@ -51,5 +51,5 @@ Note that `$0` is not a positional parameter (Ref:   [bash - Why $0 is not a pos
 
 These parameters may only be referenced; assignment to them is not allowed. Ref:  [Special Parameters (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Special-Parameters.html) 
 
-
+[§link-to-sec](./special-parameters/README.md)
 
