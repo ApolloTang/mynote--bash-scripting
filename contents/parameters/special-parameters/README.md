@@ -34,6 +34,8 @@ Without double quote, both `$*` and `$@` are equivalent, they both expands to al
 
 When `$*` and `$@` are surrounded with a double quote (namely: `"$*"` and `"$@"`): `"$*"` expands all words of all positional parameters into a single string containing them all, separated by the first character of the IFS variable; whist `"$@"` expands all words of all positional parameters into a *list* of them all as individual words.
 
+[§link-to-ipynb](./ipynb--special-paramerter-for-positional-para/README.ipynb)
+
 ### Ref:
 
 [linux - What is the difference between $* and $​@ - Stack Overflow](https://stackoverflow.com/questions/22589032/what-is-the-difference-between-and) 
