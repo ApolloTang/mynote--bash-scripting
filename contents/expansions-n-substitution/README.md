@@ -19,4 +19,5 @@ In addition to the above, some systems also have process substitution [[§link-t
 ## to read: 
 
 - [Shell Expansions (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Shell-Expansions.html)
- 
+
+-  [tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_04/Shell expansion](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_04.html) 
