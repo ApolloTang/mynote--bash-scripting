@@ -1,6 +1,6 @@
 # Expansions 
 
-[Bash Reference Manual #Shell-Expansions](https://www.gnu.org/software/bash/manual/bash.html#Shell-Expansions) 
+[Bash Reference Manual #Shell-Expansions](https://www.gnu.org/software/bash/manual/html_node/Shell-Expansions.html) 
 
 There are seven kinds of expansion performed (listed in the order of expansions):
 
@@ -13,3 +13,10 @@ There are seven kinds of expansion performed (listed in the order of expansions)
 7. filename expansion
 
 In addition to the above, some systems also have process substitution [[§link-to-sec](./process-substitution/README.md)].
+
+
+
+## to read: 
+
+- [Shell Expansions (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Shell-Expansions.html)
+ 
