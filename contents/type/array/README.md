@@ -1,0 +1,4 @@
+ [Arrays (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Arrays.html) 
+
+
+
