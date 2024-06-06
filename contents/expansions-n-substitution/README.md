@@ -4,7 +4,7 @@
 
 There are seven kinds of expansion performed (listed in the order of expansions):
 
-1. brace expansion
+1. brace expansion  [[§link-to-sec](./brace-expansion/README.md)]
 2. tilde expansion
 3. parameter and variable expansion [[§link-to-sec](./parameter-n-variable-expansion/README.md)]
 4. arithmetic expansion
