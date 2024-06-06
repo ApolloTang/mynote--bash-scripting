@@ -4,7 +4,7 @@ After Bash finishes performing word splitting on the executable's arguments, it 
 
 - `*` which is a pattern that matches multiple characters
 - `?` which is a pattern that matches any single character.
-- pair of brackets (`[` and `]`), which is a pattern that matches a single character according to the bracket expression rules.
+- pair of brackets (`[` and `]`), which is a pattern that matches a single character according to the bracket expansion rules [[§link-to-sec](./bracket-expansion/README.md)].
 
 When bash successfully matches the word patterns in the existing file or pathnames, the pattern is replaced by the matched file or path names. This operation is called **Filename expansion**.
 
