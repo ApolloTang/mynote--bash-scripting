@@ -3,7 +3,7 @@
 After Bash finishes performing word splitting on an executable's argument, it will look for **word patterns** that match the existing files and directories in a path. 
 When the matches are successful, the pattern is expanded. The expansion will be a list of matched files and folders sorted alphabetically. This operation is called **Filename expansion.**
 
-## Word patterns
+## Word patterns (also known as Globs)
 
 Bash recognizes word patterns by searching for the following characters:
 
@@ -12,6 +12,7 @@ Bash recognizes word patterns by searching for the following characters:
 - A pair of brackets (`[` and `]`), which is a pattern that matches a single character according to the bracket expansion rules [[§link-to-sec](./bracket-expansion/README.md)].
 
 :warning: Note that Bash only considers the above characters as word patterns if they are not double-quoted. (see [§note 1](#note-1)) 
+
 
 
 
@@ -25,5 +26,9 @@ Recalled that double-quoted asterisk, `"*"`, is treated literally as a string wi
 ## References: 
 
 [Filename Expansion (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Filename-Expansion.html) 
+
+[glob - Greg's Wiki](https://mywiki.wooledge.org/glob) 
+
+[BashGuide/Patterns - Greg's Wiki](https://mywiki.wooledge.org/BashGuide/Patterns) 
 
 [Shell Command Language | 2.13.1 Patterns Matching a Single Character](https://pubs.opengroup.org/onlinepubs/007904975/utilities/xcu_chap02.html#tag_02_13) 
