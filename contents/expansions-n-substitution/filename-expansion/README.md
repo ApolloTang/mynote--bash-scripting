@@ -11,12 +11,14 @@ Bash recognizes word patterns by searching for the following characters:
 - Question mark, `?`, which is a pattern that matches any single character.
 - A pair of brackets (`[` and `]`), which is a pattern that matches a single character according to the bracket expansion rules [[§link-to-sec](./bracket-expansion/README.md)].
 
-:warning: Note that Bash only considers the above characters as word patterns if they are not double-quoted. (see note [1]) 
+:warning: Note that Bash only considers the above characters as word patterns if they are not double-quoted. (see [§note 1](#note-1)) 
 
 
 
 ## Notes:
-1. Recalled that asterisk `"*"` is treated literally as a string without special meaning; however, if asterisk is preceded by a dollar sign within a pair of double-quoted (namely, `"$*"`), Bash will expand them into a single string with all words of positional parameter separated by the first character of IFS variable. See illusion [[§link-illustration](./ipynb--double-quoted-asterisk/index.ipynb)]
+
+<a name="note-1">[§note 1]</a> </br>
+Recalled that double-quoted asterisk, `"*"`, is treated literally as a string without special meaning; however, if the asterisk is preceded by a dollar sign within a pair of double-quoted (namely, `"$*"`), Bash will expand them into a single string with all words of positional parameter separated by the first character of IFS variable. See illusion [[§link-illustration](./ipynb--double-quoted-asterisk/index.ipynb)]
 
 
 
