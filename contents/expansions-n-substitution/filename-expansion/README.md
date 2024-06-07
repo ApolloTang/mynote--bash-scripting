@@ -1,14 +1,26 @@
 # Filename expansion
 
-After Bash finishes performing word splitting on the executable's arguments, it will look for **word patterns** to match the existing files and paths. Bash recognizes word patterns by searching for the following characters:
+After Bash finishes performing word splitting on an executable's argument, it will look for **word patterns** that match the existing files and directories in a path. 
+When the matches are successful, the pattern is expanded. The expansion will be a list of matched files and folders sorted alphabetically. This operation is called **Filename expansion.**
 
-- `*` which is a pattern that matches multiple characters
-- `?` which is a pattern that matches any single character.
-- pair of brackets (`[` and `]`), which is a pattern that matches a single character according to the bracket expansion rules [[§link-to-sec](./bracket-expansion/README.md)].
+## Word patterns
 
-When bash successfully matches the word patterns in the existing file or pathnames, the pattern is replaced by the matched file or path names. This operation is called **Filename expansion**.
+Bash recognizes word patterns by searching for the following characters:
 
-Ref: 
+- Asterisk, `*`, which is a pattern that matches multiple characters
+- Question mark, `?`, which is a pattern that matches any single character.
+- A pair of brackets (`[` and `]`), which is a pattern that matches a single character according to the bracket expansion rules [[§link-to-sec](./bracket-expansion/README.md)].
+
+:warning: Note that Bash only considers the above characters as word patterns if they are not double-quoted. (see note [1]) 
+
+
+
+## Notes:
+1. Recalled that asterisk `"*"` is treated literally as a string without special meaning; however, if asterisk is preceded by a dollar sign within a pair of double-quoted (namely, `"$*"`), Bash will expand them into a single string with all words of positional parameter separated by the first character of IFS variable. See illusion [[§link-illustration](./ipynb--double-quoted-asterisk/index.ipynb)]
+
+
+
+## References: 
 
 [Filename Expansion (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Filename-Expansion.html) 
 
