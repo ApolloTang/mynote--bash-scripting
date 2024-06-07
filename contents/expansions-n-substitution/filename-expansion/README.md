@@ -18,7 +18,7 @@ Bash recognizes word patterns by searching for the following characters:
 ## Notes:
 
 <a name="note-1">[§note 1]</a> </br>
-Recalled that double-quoted asterisk, `"*"`, is treated literally as a string without special meaning; however, if the asterisk is preceded by a dollar sign within a pair of double-quoted (namely, `"$*"`), Bash will expand them into a single string with all words of positional parameter separated by the first character of IFS variable. See illusion [[§link-illustration](./ipynb--double-quoted-asterisk/index.ipynb)]
+Recalled that double-quoted asterisk, `"*"`, is treated literally as a string without special meaning; however, if the asterisk is preceded by a dollar sign within a pair of double-quoted (namely, `"$*"`), Bash will expand them into a single string with all words of positional parameter separated by the first character of IFS variable (which is space by default). See illusion [[§link-illustration](./ipynb--double-quoted-asterisk/index.ipynb)]
 
 
 
