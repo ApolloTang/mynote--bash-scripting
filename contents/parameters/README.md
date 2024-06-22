@@ -39,13 +39,16 @@ And the attributes are assigned using the [declare](https://www.gnu.org/software
 
 ## Positional parameter
 
-The positional parameter uses integers as its name. The integer values start at 1. Unlike the variable mentioned above, assignment is forbidden with the assignment statements. These parameters receive their value from the shell’s arguments when it is invoked.  It may be reassigned or set using the [set](https://www.gnu.org/software/bash/manual/bash.html#index-set) and [shift](https://www.gnu.org/software/bash/manual/bash.html#index-shift) built-in commands.
+The positional parameter uses positive integers as its name. Unlike the variable mentioned above, assignment is forbidden with the assignment statements. These parameters receive their value from the shell’s arguments when it is invoked.  It may be reassigned or set using the [set](https://www.gnu.org/software/bash/manual/bash.html#index-set) and [shift](https://www.gnu.org/software/bash/manual/bash.html#index-shift) built-in commands.
 
 Ref:  [Positional Parameters (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Positional-Parameters.html) 
 
-Note that `$0` is not a positional parameter (Ref:   [bash - Why $0 is not a positional parameter? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/412707/why-0-is-not-a-positional-parameter) ).
+Note that `0` is not a positional parameter (Ref:   [bash - Why $0 is not a positional parameter? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/412707/why-0-is-not-a-positional-parameter) ).
 
-
+When a positional parameter consisting of more than a single digit is expanded, it must be enclosed in braces:
+```
+$1, $2, $3, ..., ${10}, ${11}
+```
 
 ## Special parameter
 

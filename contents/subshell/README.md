@@ -17,3 +17,5 @@
 ## To Read
 
  [bash - What does <<< mean? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/a/80372/62821) 
+
+ [shell - If processes inherit the parent's environment, why do we need export? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/130985/if-processes-inherit-the-parents-environment-why-do-we-need-export) 
