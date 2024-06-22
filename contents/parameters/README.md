@@ -14,7 +14,7 @@ Parameters can be divided into 3 categories:
 - positional parameter
 - special parameter
 
-Ref:  [The difference between parameter and variable in bash, Linux Forum](https://forum.linuxconfig.org/t/the-difference-between-parameter-and-variable-in-bash/1009) 
+
 
 
 
@@ -31,8 +31,8 @@ name=[value]
 ```
 And the attributes are assigned using the [declare](https://www.gnu.org/software/bash/manual/bash.html#index-declare)  building command
 
-
-
+### environment variables
+A subset of the variables are the **environment variables**, whose values are either inherited from the environment when the shell starts up or created by setting the export attribute (see subject: subshell).
 
 
 
@@ -56,3 +56,8 @@ These parameters may only be referenced; assignment to them is not allowed. Ref:
 
 [§link-to-sec](./special-parameters/README.md)
 
+
+## Reference:
+
+- [The difference between parameter and variable in bash, Linux Forum](https://forum.linuxconfig.org/t/the-difference-between-parameter-and-variable-in-bash/1009)
+-  [Are variables like `$0` and `$1` shell/environment variables? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/400467/are-variables-like-0-and-1-shell-environment-variables#:~:text=In%20short%2C%20the%20main%20distinction,the%20command%20and%20they%20change.) 
