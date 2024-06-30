@@ -1,3 +1,9 @@
+## GNU Bash menual
+
+ [GNU Bash manual - GNU Project - Free Software Foundation](https://www.gnu.org/software/bash/manual/) 
+
+
+
 ## The Linux Documentation Project 
 
 [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/abs-guide.html) 
@@ -18,8 +24,6 @@
 
 
 
-
-
 ## The Bash Guide
 
  [https://guide.bash.academy/](https://guide.bash.academy/) 
@@ -27,8 +31,6 @@
 Repo: https://github.com/lhunath/guide.bash.academy
 
 By the same author: [Greg's Wiki](https://mywiki.wooledge.org/) . It has some pages which may be of interest for people doing Unix shell scripting or system administration. 
-
-
 
 
 
