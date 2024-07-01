@@ -6,7 +6,7 @@ There are eight kinds of expansion:
 2. tilde
 3. parameter  [[§link-to-sec](./parameter-n-variable-expansion/README.md)]
 4. arithmetic
-5. command substitution 
+5. command substitution  [[§link-to-sec](./command-substitution//README.md)]
 6. process substitution [[§link-to-sec](./process-substitution/README.md)]
 7. word splitting (also called field splitting) [[§link-to-sec](./word-splitting/README.md)]
 8. filename [[§link-to-sec](./filename-expansion/README.md)]
