@@ -39,10 +39,8 @@ A subset of the variables are the **environment variables**, whose values are ei
 
 ## Positional parameter
 
-The positional parameter uses positive integers as its name. These parameters receive their value from the shell’s arguments when the shell is invoked. You cannot assign this parameter using the assignment statements (`name=[value]`) similar to that in the shell variables. 
-
-Although you cannot assign positional parameters with assignment statements, you can reassign them using the [set](https://www.gnu.org/software/bash/manual/bash.html#index-set) and [shift](https://www.gnu.org/software/bash/manual/bash.html#index-shift) built-in commands. See [How to set positional parameter](./positional-parameter/ipynb--how-to-set-positional-parameter/index.ipynb)
-
+### The naming of positional parameter
+The positional parameter uses positive integers as its name. 
 
 Note that `0` is not a positional parameter (Ref: [bash - Why $0 is not a positional parameter? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/412707/why-0-is-not-a-positional-parameter) ).
 
@@ -50,6 +48,14 @@ When a positional parameter consisting of more than a single digit is expanded, 
 ```
 $1, $2, $3, ..., ${10}, ${11}
 ```
+
+### The value of positional parameter
+
+Positional parameters receive their value from the shell’s arguments when the shell is invoked. You cannot assign this parameter using the assignment statements (`name=[value]`) similar to that in the shell's user defined variables. 
+
+Although you cannot assign positional parameters with assignment statements, you can reassign them using the [set](https://www.gnu.org/software/bash/manual/bash.html#index-set) and [shift](https://www.gnu.org/software/bash/manual/bash.html#index-shift) built-in commands. See [How to set positional parameter](./positional-parameter/ipynb--how-to-set-positional-parameter/index.ipynb)
+
+
 [§link-to-section-on-positional-parameter](./positional-parameter/README.md)
 
 Ref:  [Positional Parameters (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Positional-Parameters.html) 
@@ -59,7 +65,7 @@ Ref:  [Positional Parameters (Bash Reference Manual)](https://www.gnu.org/softwa
 
 These parameters may only be referenced; assignment to them is not allowed. Ref:  [Special Parameters (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Special-Parameters.html) 
 
-[§link-to-sec](./special-parameters/README.md)
+[§link-to-section-on-special-parameter](./special-parameters/README.md)
 
 
 ## Reference:
