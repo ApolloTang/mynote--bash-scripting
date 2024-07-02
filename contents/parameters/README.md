@@ -50,7 +50,7 @@ When a positional parameter consisting of more than a single digit is expanded, 
 ```
 $1, $2, $3, ..., ${10}, ${11}
 ```
-[§link-to-section-on-positional-parameter](./positional-parameters/README.md)
+[§link-to-section-on-positional-parameter](./positional-parameter/README.md)
 
 Ref:  [Positional Parameters (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Positional-Parameters.html) 
 
