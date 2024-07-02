@@ -63,9 +63,15 @@ Ref:  [Positional Parameters (Bash Reference Manual)](https://www.gnu.org/softwa
 
 ## Special parameter
 
-These parameters may only be referenced; assignment to them is not allowed. Ref:  [Special Parameters (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Special-Parameters.html) 
+The shell treats several parameters specially. These parameters use single special characters as their name: #, *, @, etc.
+
+You can only read these parameters; assignment to them is not allowed.
 
 [§link-to-section-on-special-parameter](./special-parameters/README.md)
+
+Ref: [Special Parameters (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Special-Parameters.html) 
+
+
 
 
 ## Reference:
