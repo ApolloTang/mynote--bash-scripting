@@ -1,0 +1,1 @@
+ [The set Command in Linux | Baeldung on Linux](https://www.baeldung.com/linux/set-command#:~:text=We%20use%20the%20set%20command,they%20fail%2C%20and%20handle%20exceptions.) 
