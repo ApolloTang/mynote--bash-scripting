@@ -27,10 +27,20 @@ name=[value]
 ```
 The attributes are assigned using the [declare](https://www.gnu.org/software/bash/manual/html_node/Bash-Builtins.html#index-declare)  building command.
 
+Once a variable is set, it exists and can only be unset by the `unset` builtin command.
 
-### environment variables
 
-A subset of the variables are the **environment variables**, whose values are either inherited from the environment when the shell starts up or created by setting the export attribute (see subject: subshell).
+
+
+### Environment and shell variables
+
+A subset of the variables are the **environment and shell variables**. 
+
+An environment variable is a globally available, in a program and it child programs. A shell variable is only available in the current shell.  [Ref: [bash - Environment variable vs Shell variable, what's the difference? - Ask Ubuntu](https://askubuntu.com/questions/26318/environment-variable-vs-shell-variable-whats-the-difference) ]
+
+ See subject: subshell.
+
+
 
 
 ## Positional parameter
@@ -47,10 +57,7 @@ $1, $2, $3, ..., ${10}, ${11}
 
 ### The value of positional parameter
 
-Positional parameters receive their value from the shell’s arguments when the shell is invoked. You cannot assign this parameter using the assignment statements (`name=[value]`) similar to that in the shell's user defined variables. 
-
-Although you cannot assign positional parameters with assignment statements, you can reassign them using the [set](https://www.gnu.org/software/bash/manual/bash.html#index-set) and [shift](https://www.gnu.org/software/bash/manual/bash.html#index-shift) built-in commands. See [How to set positional parameter](./positional-parameter/ipynb--how-to-set-positional-parameter/index.ipynb)
-
+Positional parameters receive their value from the script’s or function's arguments when the script or function are invoked. You cannot assign this parameter using the assignment statements (`name=[value]`) similar to that in the shell's user defined variables. However, you can reassign them using the [set](https://www.gnu.org/software/bash/manual/bash.html#index-set) and [shift](https://www.gnu.org/software/bash/manual/bash.html#index-shift) built-in commands. See [How to set positional parameter](./positional-parameter/ipynb--how-to-set-positional-parameter/index.ipynb)
 
 [§link-to-section-on-positional-parameter](./positional-parameter/README.md)
 
@@ -73,6 +80,7 @@ Ref: [Special Parameters (Bash Reference Manual)](https://www.gnu.org/software/b
 ## Reference:
 
 -  [gnu.org](https://www.gnu.org/software/bash/manual/bash.html#Shell-Parameters)
+-  [Parameter [Bash Hackers Wiki]](https://web.archive.org/web/20230316102937/https://wiki.bash-hackers.org/dict/terms/parameter) 
 -  [Parameter expansion [Bash Hackers Wiki]](https://web.archive.org/web/20230408142504/https://wiki.bash-hackers.org/syntax/pe) 
 - [The difference between parameter and variable in bash, Linux Forum](https://forum.linuxconfig.org/t/the-difference-between-parameter-and-variable-in-bash/1009)
 -  [Are variables like `$0` and `$1` shell/environment variables? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/400467/are-variables-like-0-and-1-shell-environment-variables#:~:text=In%20short%2C%20the%20main%20distinction,the%20command%20and%20they%20change.) 

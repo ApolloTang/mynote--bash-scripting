@@ -1,3 +1,7 @@
+
+
+ [Arrays [Bash Hackers Wiki]](https://web.archive.org/web/20230403055152/https://wiki.bash-hackers.org/syntax/arrays) 
+
  [Arrays [Bash Hackers Wiki]](https://web.archive.org/web/20230403055152/https://wiki.bash-hackers.org/syntax/arrays) 
 
  [Arrays (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Arrays.html) 
