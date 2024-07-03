@@ -1,6 +1,12 @@
-## GNU Bash menual
+## GNU Bash manual
 
  [GNU Bash manual - GNU Project - Free Software Foundation](https://www.gnu.org/software/bash/manual/) 
+
+
+
+## Bash-hackers.org
+
+ [The Bash Hackers Wiki [Bash Hackers Wiki]](https://web.archive.org/web/20230328220001/https://wiki.bash-hackers.org/start) 
 
 
 
