@@ -38,7 +38,10 @@ A subset of the variables are the **environment and shell variables**.
 
 An environment variable is a globally available, in a program and it child programs. A shell variable is only available in the current shell.  [Ref: [bash - Environment variable vs Shell variable, what's the difference? - Ask Ubuntu](https://askubuntu.com/questions/26318/environment-variable-vs-shell-variable-whats-the-difference) ]
 
- See subject: subshell.
+See subject: subshell.
+
+Ref:  [Special parameters and shell variables [Bash Hackers Wiki]](https://web.archive.org/web/20230315082027/https://wiki.bash-hackers.org/syntax/shellvars#shell_variables) 
+
 
 
 
