@@ -1,6 +1,11 @@
 ## GNU Bash manual
 
- [GNU Bash manual - GNU Project - Free Software Foundation](https://www.gnu.org/software/bash/manual/) 
+
+
+[GNU Bash manual - GNU Project - Free Software Foundation](https://www.gnu.org/software/bash/manual/) 
+
+-  [TOC | with one web page per node](https://www.gnu.org/software/bash/manual/html_node/index.html#SEC_Contents) 
+-  [TOC | entirely on one web page](https://www.gnu.org/software/bash/manual/bash.html#SEC_Contents) 
 
 
 
