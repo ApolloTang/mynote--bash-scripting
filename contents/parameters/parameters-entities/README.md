@@ -18,16 +18,19 @@ Parameters can be divided into 3 categories:
 
 The variables are the parameters that are defined by the user.  (Ref: [geeksforgeeks.org](https://www.geeksforgeeks.org/shell-script-to-demonstrate-special-parameters-with-example/) )
 
-Its name must be comprised solely of alphanumeric and underscore characters and may not begin with a numeral.  (Ref:  [gnu.org #index-name](https://www.gnu.org/software/bash/manual/html_node/Definitions.html#index-name) ).
+Its name must be comprised solely of alphanumeric and underscore characters and may not begin with a numeral (Ref:  [gnu.org #index-name](https://www.gnu.org/software/bash/manual/html_node/Definitions.html#index-name) ). This name can be match by Extended/Basic Regular Expressions:
+```
+[[:alpha:]_][[:alnum:]_]*
+```
 
 A Variable can store a value, and it has attributes. The values are assigned with the **assignment statement**:
 
 ```
 name=[value]
 ```
-The attributes are assigned using the [declare](https://www.gnu.org/software/bash/manual/html_node/Bash-Builtins.html#index-declare)  building command.
+The attributes are assigned using the [declare](https://www.gnu.org/software/bash/manual/html_node/Bash-Builtins.html#index-declare)  built-in command.
 
-Once a variable is set, it exists and can only be unset by the `unset` builtin command.
+Once a variable is set, it exists and can only be unset by the `unset` built-in command.
 
 
 
@@ -36,7 +39,7 @@ Once a variable is set, it exists and can only be unset by the `unset` builtin c
 
 A subset of the variables are the **environment and shell variables**. 
 
-An environment variable is a globally available, in a program and it child programs. A shell variable is only available in the current shell.  [Ref: [bash - Environment variable vs Shell variable, what's the difference? - Ask Ubuntu](https://askubuntu.com/questions/26318/environment-variable-vs-shell-variable-whats-the-difference) ]
+An environment variable is a globally available, in a program and its child programs. A shell variable is only available in the current shell.  [Ref: [bash - Environment variable vs Shell variable, what's the difference? - Ask Ubuntu](https://askubuntu.com/questions/26318/environment-variable-vs-shell-variable-whats-the-difference) ]
 
 See subject: subshell.
 
