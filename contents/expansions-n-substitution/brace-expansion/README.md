@@ -1,10 +1,13 @@
 # Brace expansion
 
-Brace expansion is performed before any other expansions, and any characters special to other expansions are preserved in the result.
+Brace expansion is performed before any other expansions, and any characters special to other expansions are preserved in the result. (see [illustrated example](./ipynb--brance-expansion-and-file-expansion/index.ipynb))
+
 
 A dollars-sign symbol before opening brace `${` will inhibit brace expansion because `${` is the syntax for parameter expansion. 
 
-[§link to Jupyter notebook on brace expansion](./brace-expansion.ipynb)
+
+
+[§link to Jupyter notebook on brace expansion](./ipynb--brace-expansion/index.ipynb)
 
 
 
