@@ -11,7 +11,9 @@
 
 ## Bash-hackers.org
 
- [The Bash Hackers Wiki [Bash Hackers Wiki]](https://web.archive.org/web/20230328220001/https://wiki.bash-hackers.org/start) 
+[The Bash Hackers Wiki on web.archive (original broken)](https://web.archive.org/web/20230328220001/https://wiki.bash-hackers.org/start) 
+
+[The Bash Hackers Wiki on github](https://flokoe.github.io/bash-hackers-wiki/) 
 
 
 
