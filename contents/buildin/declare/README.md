@@ -1,3 +1,9 @@
+# Declare 
+
+
+
+
+
 ## References: 
 
 [Declare Bash Builtins (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Bash-Builtins.html#index-declare) 
@@ -12,5 +18,4 @@
 
 [bash - What do `declare name` and `declare -g` do? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/381761/what-do-declare-name-and-declare-g-do/381782#381782) 
 
-
-
+ [what is difference in `declare -r` and `readonly` in bash? - Stack Overflow](https://stackoverflow.com/questions/30362831/what-is-difference-in-declare-r-and-readonly-in-bash) 
