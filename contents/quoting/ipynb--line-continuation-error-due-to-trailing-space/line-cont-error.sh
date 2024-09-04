@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
-echo this line continue \ 
+echo this line will continue \ 
 on next line.

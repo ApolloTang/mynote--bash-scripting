@@ -1,6 +1,6 @@
 ### Quoting
 
-Link to jupyter note [here](./index.ipynb) 
+Link to jupyter note [here](./ipynb--index/index.ipynb) 
 
 
 
