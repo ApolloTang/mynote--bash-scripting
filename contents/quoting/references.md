@@ -12,6 +12,12 @@
 
 
 
+## Advanced Bash-Scripting Guide
+
+[Quoting](https://tldp.org/LDP/abs/html/quoting.html) 
+
+
+
 ## grymoire.com
 
 [UNIX Shell Quotes - a simple tutorial](https://www.grymoire.com/Unix/Quote.html) 

@@ -19,7 +19,9 @@
 
 ## The Linux Documentation Project 
 
-[Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/abs-guide.html) 
+[Advanced Bash-Scripting Guide | page per node](https://tldp.org/LDP/abs/html/index.html) 
+
+[Advanced Bash-Scripting Guide | entirely on one web page](https://tldp.org/LDP/abs/html/abs-guide.html) 
 
 
 
