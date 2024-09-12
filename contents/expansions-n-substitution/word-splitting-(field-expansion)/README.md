@@ -1,11 +1,16 @@
+
+
 # Word Splitting or field expansion
 
+## TOC
+[What is IFS](./nb--what-is-ifs/index.ipynb)
+
+
+## To sort
 [opensource.com/article/17/6/bash-parameter-expansion](https://opensource.com/article/17/6/bash-parameter-expansion)
 
-
-
 word splitting example
-[[link-to-jynb](./word-splitting--nb/word-splitting-eg.ipynb)]
+[[link-to-jynb](./nb--word-splitting/word-splitting-eg.ipynb)]
 
 
 
