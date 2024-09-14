@@ -8,7 +8,7 @@ There are eight kinds of expansion:
 4. arithmetic
 5. command substitution  [[§link-to-sec](./command-substitution//README.md)]
 6. process substitution [[§link-to-sec](./process-substitution/README.md)]
-7. word splitting (also called field splitting) [[§link-to-sec](./word-splitting/README.md)]
+7. word splitting (also called field splitting) [[§link-to-sec](./word-splitting-(field-expansion)/README.md)]
 8. filename [[§link-to-sec](./filename-expansion/README.md)]
 
 Ref: [Bash Reference Manual #Shell-Expansions](https://www.gnu.org/software/bash/manual/html_node/Shell-Expansions.html) 
