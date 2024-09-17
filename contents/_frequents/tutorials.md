@@ -1,7 +1,5 @@
 ## GNU Bash manual
 
-
-
 [GNU Bash manual - GNU Project - Free Software Foundation](https://www.gnu.org/software/bash/manual/) 
 
 -  [TOC | with one web page per node](https://www.gnu.org/software/bash/manual/html_node/index.html#SEC_Contents) 
@@ -49,13 +47,25 @@ By the same author: [Greg's Wiki](https://mywiki.wooledge.org/) . It has some pa
 
 
 
-## Misc Tutorial
+## Other Tutorials
 
-[bash Scripting](http://linuxsig.org/files/bash_scripting.html) 
+[Sven Mascheck | www.in-ulm.de/~mascheck/](https://www.in-ulm.de/~mascheck/) 
+
+[Welcome to The UNIX Grymoire!](https://www.grymoire.com/Unix/) 
+
+[linuxsig.org/files/bash_scripting.html](http://linuxsig.org/files/bash_scripting.html) 
 
 [Linux Scripting Series by Baeldung on Linux](https://www.baeldung.com/linux/linux-scripting-series) 
 
-[(Medium article) Bash Scripting: Everything you need to know about Bash-shell programming by Uday Hiwarale ](https://medium.com/sysf/bash-scripting-everything-you-need-to-know-about-bash-shell-programming-cd08595f2fba) 
+[Vivek Gite | bash.cyberciti.biz/guide/Main_Page](https://bash.cyberciti.biz/guide/Main_Page) 
 
-[Effective Shell | Effective Shell](https://effective-shell.com/) 
+
+
+## Misc Tutorial
+
+[(Medium article) Bash Scripting: Everything you need to know about Bash-shell programming by Uday Hiwarale ](https://medium.com/sysf/bash-scripting-everything-you-need-to-know-about-bash-shell-programming-cd08595f2fba)
+
+[effective-shell.com/part-4-shell-scripting/](https://effective-shell.com/part-4-shell-scripting/) 
+
+
 
