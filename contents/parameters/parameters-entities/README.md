@@ -43,9 +43,11 @@ An environment variable is a globally available, in a program and its child prog
 
 See subject: subshell.
 
-Ref:  [Special parameters and shell variables [Bash Hackers Wiki]](https://web.archive.org/web/20230315082027/https://wiki.bash-hackers.org/syntax/shellvars#shell_variables) 
+Ref: 
 
+[Special parameters and shell variables [Bash Hackers Wiki]](https://web.archive.org/web/20230315082027/https://wiki.bash-hackers.org/syntax/shellvars#shell_variables) 
 
+[POSIX Environment Variables](https://pubs.opengroup.org/onlinepubs/009695399/basedefs/xbd_chap08.html) 
 
 
 
