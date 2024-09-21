@@ -1,5 +1,7 @@
 # Block of code
 
-## Reference: 
+## TOC 
 
-[tldp.org/LDP/abs/html/special-chars.html#CODEBLOCKREF](https://tldp.org/LDP/abs/html/special-chars.html#CODEBLOCKREF)
+[notebook: Scope in a block of code [curly brackets]](./ipynb--scope-in-block-of-code/index.ipynb)
+
+[references](./references.md)
