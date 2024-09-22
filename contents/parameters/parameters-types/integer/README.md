@@ -1,6 +1,6 @@
 # Integer type in bash
 
-code in notebook [here](./ipynb--integer-type/README.md)
+code in notebook [here](./ipynb--integer-type/index.ipynb)
 
 
 
