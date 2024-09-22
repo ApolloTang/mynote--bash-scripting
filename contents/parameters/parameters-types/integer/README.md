@@ -4,7 +4,7 @@ code in notebook [here](./ipynb--integer-type/README.md)
 
 
 
-Essentially, *Bash variables are character strings*, but depending on context, Bash permits arithmetic operations and comparisons on variables. The determining factor is whether the value of a variable contains only digits.  [Bash Variables Are Untyped](https://tldp.org/LDP/abs/html/untyped.html) 
+Essentially, *Bash variables are character strings*, but depending on context, Bash permits arithmetic operations and comparisons on variables. The determining factor is whether the value of a variable contains only digits.  [ref](https://tldp.org/LDP/abs/html/untyped.html) 
 
 For the most part, *bash* works with strings and parses strings into numbers dynamically when ~~performing arithmetic expansion~~ [ref](https://www.quora.com/How-would-you-convert-a-string-into-an-integer-in-Bash/answer/Jim-Dennis-1?ch=10&oid=1477743676688152&share=9a760be6&srid=ubFICC&target_type=answer) evaluate an [arithmetic expressions](https://web.archive.org/web/20230327003702/https://wiki.bash-hackers.org/syntax/arith_expr).  
 
