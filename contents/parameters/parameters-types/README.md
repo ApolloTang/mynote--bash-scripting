@@ -1,7 +1,7 @@
 # Parameter Type
 
-Value assigned to parameters can have 3 types:
+The value assigned to parameters can have 3 types:
 
 - Strings
-- Integers
+- [Integers](./integer/README.md)
 - [Array](./array/README.md)
