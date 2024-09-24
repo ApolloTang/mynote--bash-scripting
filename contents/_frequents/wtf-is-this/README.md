@@ -46,3 +46,28 @@ Note: `${$n}` is a syntax error in bash, inside the braces, you can only have a 
  [bash - What does <<< mean? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/80362/what-does-mean/80372#80372) 
 
  [5 Best Methods to Split Strings in Bash Scripts](https://linuxier.com/how-to-to-split-strings-in-bash-scripts/) 
+
+
+
+## comma in bash script:
+
+In Bash, Comma is used in:
+-  brace expansion
+-  separate commands in arithmetic operation
+-  for statement
+-  parameter expansion
+-  filename
+
+Notebook  [index.ipynb](ipynb--comma-in-bash/index.ipynb) 
+
+
+
+Ref: 
+
+[linux - What does the character , mean in bash? - Super User](https://superuser.com/questions/184466/what-does-the-character-mean-in-bash#:~:text=Commas%20can%20also%20be%20used,character%20this%20is%20a%20TEST)  
+
+[bash - What do the commas in "${var,,}" mean? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/500274/what-do-the-commas-in-var-mean) 
+
+[Start all of your commands with a comma](https://rhodesmill.org/brandon/2009/commands-with-comma/) 
+
+[Shell Parameter Expansion (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html) 
