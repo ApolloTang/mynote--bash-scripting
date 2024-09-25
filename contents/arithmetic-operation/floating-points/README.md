@@ -1,0 +1,1 @@
+ [How do I use floating-point arithmetic in bash? - Stack Overflow](https://stackoverflow.com/questions/12722095/how-do-i-use-floating-point-arithmetic-in-bash) 

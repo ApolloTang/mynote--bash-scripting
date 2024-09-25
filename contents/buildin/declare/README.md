@@ -18,4 +18,6 @@
 
 [bash - What do `declare name` and `declare -g` do? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/381761/what-do-declare-name-and-declare-g-do/381782#381782) 
 
- [what is difference in `declare -r` and `readonly` in bash? - Stack Overflow](https://stackoverflow.com/questions/30362831/what-is-difference-in-declare-r-and-readonly-in-bash) 
+ [what is difference in `declare -r` and `readonly` in bash? - Stack Overflow](https://stackoverflow.com/questions/30362831/what-is-difference-in-declare-r-and-readonly-in-bash)  
+
+[function - What is "declare" in Bash? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/510220/what-is-declare-in-bash) 
