@@ -1,0 +1,3 @@
+ [bash - How does arithmetic expansion work with variables without the $ (dollar) sign? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/728876/how-does-arithmetic-expansion-work-with-variables-without-the-dollar-sign) 
+
+ [bash - Arithmetic expansion and parameter expansion - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/278670/arithmetic-expansion-and-parameter-expansion) 

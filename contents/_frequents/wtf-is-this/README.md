@@ -55,7 +55,7 @@ In Bash, Comma is used in:
 -  brace expansion
 -  separate commands in arithmetic operation
 -  for statement
--  parameter expansion
+-  parameter expansion [case_modification](https://web.archive.org/web/20230326214838/https://wiki.bash-hackers.org/syntax/pe#case_modification)
 -  filename
 
 Notebook  [index.ipynb](ipynb--comma-in-bash/index.ipynb) 
