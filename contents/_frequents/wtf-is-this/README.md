@@ -71,3 +71,20 @@ Ref:
 [Start all of your commands with a comma](https://rhodesmill.org/brandon/2009/commands-with-comma/) 
 
 [Shell Parameter Expansion (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html) 
+
+
+
+## Parenthesis `()` in bash script:
+
+Many situations in `bash` parenthesis combine with other characters they can be used as:
+
+- command substitution: `$()`
+- process substitution: `<()` and `>()`
+- subshell: `(command)`
+- arithmetic evaluation: `(())`
+- function definition: `fun () { echo x; }`
+- pattern list in glob: `?()`, `*()`, `+()`, `@()`, `!()` (*only if `extglob` is enable*)
+
+Ref:
+
+[array - Single parenthesis in bash variable assignment - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/217877/single-parenthesis-in-bash-variable-assignment/217878#217878) 
