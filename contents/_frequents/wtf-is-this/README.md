@@ -88,3 +88,29 @@ Many situations in `bash` parenthesis combine with other characters they can be 
 Ref:
 
 [array - Single parenthesis in bash variable assignment - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/217877/single-parenthesis-in-bash-variable-assignment/217878#217878) 
+
+
+
+## Square Brackets `[]`in Bash
+
+### Square Brackets as a command
+
+As a command the square bracket is an alias to `test` built-in [ref in bash menual](https://www.gnu.org/software/bash/manual/html_node/Bourne-Shell-Builtins.html#index-test) :
+
+You can enter the following in your terminal  to see the following::
+```
+$ type [
+[ is a shell builtin
+```
+
+### As part of the reserved word `[[..]]`
+
+The token `[[` and `]]` is a [reserve word](https://www.gnu.org/software/bash/manual/bash.html#Reserved-Words). It is a syntax for the compound command use to enclose Bash Conditional Expressions (see: [double square brackets in Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html#index-_005b_005b)) 
+
+To read:
+
+[Using Square Brackets in Bash: Part 1 - Linux.com](https://www.linux.com/training-tutorials/using-square-brackets-bash-part-1/)  
+
+[Using Square Brackets in Bash: Part 2 - Linux.com](https://www.linux.com/training-tutorials/using-square-brackets-bash-part-2/) 
+
+ [scripting - What is the difference between double and single square brackets in bash? - Server Fault](https://serverfault.com/questions/52034/what-is-the-difference-between-double-and-single-square-brackets-in-bash) 
