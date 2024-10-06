@@ -1,4 +1,8 @@
-## GNU Bash manual
+# Tutorials and references
+
+
+
+## Official GNU Bash manual
 
 [GNU Bash manual - GNU Project - Free Software Foundation](https://www.gnu.org/software/bash/manual/) 
 
@@ -32,9 +36,15 @@ https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f
 
 ## Bash-hackers.org
 
-[The Bash Hackers Wiki on web.archive (original broken)](https://web.archive.org/web/20230328220001/https://wiki.bash-hackers.org/start) 
+(original broken) [The Bash Hackers Wiki on web.archive ](https://web.archive.org/web/20230328220001/https://wiki.bash-hackers.org/start) 
 
 [The Bash Hackers Wiki on github](https://flokoe.github.io/bash-hackers-wiki/) 
+
+
+
+#### Bash-hackers.org linked references: 
+
+[flokoe.github.io/bash-hackers-wiki/#links](https://flokoe.github.io/bash-hackers-wiki/#links)
 
 
 
@@ -52,7 +62,7 @@ https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f
 
 
 
-# Greg's Wiki
+## Greg's Wiki
 
  [BashGuide - Greg's Wiki](https://mywiki.wooledge.org/BashGuide) 
 
@@ -60,13 +70,13 @@ https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f
 
 
 
-## The Bash Guide
+### The Bash Guide
 
- [https://guide.bash.academy/](https://guide.bash.academy/) 
+Also by same auther of Greg's wiki
+
+https://guide.bash.academy/](https://guide.bash.academy/) 
 
 Repo: https://github.com/lhunath/guide.bash.academy
-
-By the same author: [Greg's Wiki](https://mywiki.wooledge.org/) . It has some pages which may be of interest for people doing Unix shell scripting or system administration. 
 
 
 
