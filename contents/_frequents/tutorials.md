@@ -2,8 +2,31 @@
 
 [GNU Bash manual - GNU Project - Free Software Foundation](https://www.gnu.org/software/bash/manual/) 
 
--  [TOC | with one web page per node](https://www.gnu.org/software/bash/manual/html_node/index.html#SEC_Contents) 
--  [TOC | entirely on one web page](https://www.gnu.org/software/bash/manual/bash.html#SEC_Contents) 
+**TOC** 
+
+-  page per node [ gnu.org/software/bash/manual/html_node/index.html](https://www.gnu.org/software/bash/manual/html_node/index.html#SEC_Contents) 
+-  all in one page [gnu.org/software/bash/manual/bash.html#SEC_Contents](https://www.gnu.org/software/bash/manual/bash.html#SEC_Contents) 
+
+
+
+To navigate between `page per node` and `all in one page`, replace between
+
+``` 
+.../manual/html_node/<subject>
+```
+
+and
+
+```
+.../manual/bash.html#<subject>
+```
+
+For example: 
+
+```
+https://www.gnu.org/software/bash/manual/html_node/What-is-Bash_003f.html
+https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f
+```
 
 
 
