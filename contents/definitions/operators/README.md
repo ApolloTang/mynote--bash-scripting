@@ -33,7 +33,7 @@ newline
 |&
 ```
 
-Except for the last three operators (`;&` `;;&` `|&`),  [POSIX definition for control operators](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_113) also has the same symbol for its operator.
+*Side Note:* Except for the last three operators (`;&` `;;&` `|&`),  [POSIX definition for control operators](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_113) also has the same symbol for its operator.
 
 ### List operators
 
@@ -45,7 +45,7 @@ The following control operators are the **list operators**:
 ;
 ||
 ```
-They are called the **list operator** because they delimit **list**. A **list** is a sequence of one or more pipelines (See: [bash manual on list](https://www.gnu.org/software/bash/manual/html_node/Lists.html)).
+They are called the **list operator** because they delimit **list**s. A **list** is a sequence of one or more pipelines (See: [bash manual on list](https://www.gnu.org/software/bash/manual/html_node/Lists.html)).
 
 The list operators dictact the interaction between lists.
 
