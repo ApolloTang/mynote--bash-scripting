@@ -11,12 +11,11 @@ To direct data between stdin, stdout, and stderr, we use the redirect operators:
 >>          append operator
 <           input operator
 2>          error operator
-|           pipe operator
 ```
 
 ## File descriptor
 
-In the above, the number that appears before `>` is called the file descriptor. it is used to identify Stdin, stdout and stderr:
+In the above, the number that appears before `>` is called the file descriptor. It is used to identify Stdin, stdout and stderr:
 
 ```
 0:  stdin
@@ -34,7 +33,7 @@ command 1> filename
 
 ## Separate stdout and stderr
 
-You can save success output and error to separate file:
+You can save success output and error to separate files:
 
 ```
 some_command 1> files-listed.txt 2>error.txt
