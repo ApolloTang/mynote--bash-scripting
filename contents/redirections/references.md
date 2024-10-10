@@ -1,5 +1,19 @@
 ## References
 
+[Redirections (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Redirections.html) 
+
+Redirection [Bash Hackers Wiki
+
+- [(internet archive](https://web.archive.org/web/20230326220915/https://wiki.bash-hackers.org/syntax/redirection) 
+
+- [ (github)](https://flokoe.github.io/bash-hackers-wiki/syntax/redirection/#here-documents) 
+
+[BashGuide/InputAndOutput - Greg's Wiki](https://mywiki.wooledge.org/BashGuide/InputAndOutput) 
+
+
+
+
+
 
 
 ## To Read
