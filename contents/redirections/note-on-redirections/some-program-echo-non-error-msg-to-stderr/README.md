@@ -40,7 +40,7 @@ You can save success output and error to separate file:
 some_command 1> files-listed.txt 2>error.txt
 ```
 
- 
+
 ## Some output of successful execution is redirected to stderr
 
 Some commands will execute successfully without error, but the result is direct to stderr; an example of this is the `java -version`.  If you try to save the output of stdout of this command to a file: 
@@ -71,7 +71,4 @@ java -version &>version.txt                # success and error output to the sam
 
 The above 3 statements are doing the same thing: direct both stdout and stderr to the same file.
 
-See the accompanying notebook for this:
-
-- [Some output of successful execution is redirected to stderr](./some-successful-output-is-redirected-to-stderr/README.ipynb)
-
+See the accompanying notebook for this note here -->  [index.ipynb](ipynb--some-program-echo-non-error-msg-to-stderr/index.ipynb) 
