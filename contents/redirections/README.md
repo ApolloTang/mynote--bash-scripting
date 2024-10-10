@@ -2,7 +2,7 @@
 
 [Ridrection basic](redirection-basic.md)
 
-[references](,/references.md) 
+[references](./references.md) 
 
 [Heredoc](heredoc/README.md) 
 
