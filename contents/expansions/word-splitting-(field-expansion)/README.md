@@ -2,20 +2,11 @@
 
 # Word Splitting or field expansion
 
-## TOC
-[What is IFS](./nb--what-is-ifs/index.ipynb)
+# What is word-splitting
 
+Generally, when no quotes are used on a variable, the shell interpreter will break it into separate fields at the delimiter. The process is called **word-splitting**.
 
-## To sort
-[opensource.com/article/17/6/bash-parameter-expansion](https://opensource.com/article/17/6/bash-parameter-expansion)
+The delimiter is the character specified in a variable called `IFS`.  In the content of a variable, a sequence of `IFS` characters is treated as a single delimiter. Also, the `IFS` characters at this content's beginning and end are ignored.
 
-word splitting example
-[[link-to-jynb](./nb--word-splitting/word-splitting-eg.ipynb)]
+If the value of `IFS` is null, no word splitting occurs.
 
-
-
-## To Read
-
- [What is a 'field' in Bash? - Stack Overflow](https://stackoverflow.com/questions/20997004/what-is-a-field-in-bash) 
-
- [WordSplitting - Greg's Wiki](https://mywiki.wooledge.org/WordSplitting) 
