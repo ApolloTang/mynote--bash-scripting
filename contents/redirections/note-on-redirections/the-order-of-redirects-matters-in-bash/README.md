@@ -42,7 +42,9 @@ $ cat file.txt
 some message
 error message
 ```
-Both the `stdout` and `stderr` have streamed into this file.
+Both the `stdout` and `stderr` have streamed into this file. The following diagram illustare the file descriptor for this study:
+
+![study1](./assets/study1.png)
 
 ## Study2
 
@@ -62,4 +64,6 @@ The content of `file.txt` is:
 $ cat file.txt
 some message
 ```
-Only the `stdout` is streamed into this file.
+Only the `stdout` is streamed into this file. The following diagram illustare the file descriptor for this study:
+
+![study2](./assets/study2.png)
