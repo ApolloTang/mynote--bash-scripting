@@ -1,0 +1,1 @@
+ [command line - What's the difference between <<, <<< and < < in bash? - Ask Ubuntu](https://askubuntu.com/questions/678915/whats-the-difference-between-and-in-bash) 

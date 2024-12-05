@@ -62,7 +62,7 @@ The type of the file or resource:
 **DEVICE**
 
 Identifies the device containing the file. It is written in the format:
- 
+
 ```
 <major device number>,<minor device number>
 ```
@@ -73,6 +73,8 @@ Identifies the device containing the file. It is written in the format:
 For the meaning of these numbers in Linux see [kernel.org/doc/Documentation/admin-guide/devices.txt](https://www.kernel.org/doc/Documentation/admin-guide/devices.txt). For osx please refer to Apple's developer documentation.
 
 Note that when looking up the meaning of a major device number, you need to look up the type in the TYPE column because some major device numbers of different types share the same major device number.  
+
+Also see:  [What do device type numbers mean? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/498932/what-do-device-type-numbers-mean) 
 
 **SIZE/OFF**
 
