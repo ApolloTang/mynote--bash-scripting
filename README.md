@@ -1,6 +1,6 @@
 ## To Run:
 
-If you have already installed, simply run 
+If you have already installed it, simply run 
 
 ```
 pipenv run jupyter lab
@@ -10,20 +10,20 @@ pipenv run jupyter lab
 
 ## To Install:
 
-Install the required python package from pipfile:
+Install the required Python package from pipfile:
 
 ```
 PIPENV_VENV_IN_PROJECT=1 pipenv install
 ```
 
-Intialized bash kernel:
+Initialized bash kernel:
 
 ```
 pipenv shell 
 python -m bash_kernel.install
 ```
 
-Then you are ready to run jupyter lab with Bash kernel:
+Then you are ready to run Jupyter Lab with Bash kernel:
 
 ```
 pipenv run jupyter lab
@@ -36,7 +36,7 @@ Ref: https://github.com/takluyver/bash_kernel
 ## To reinstall bash kernel if something goes wrong:
 
 ```
-# List all kernels and grap the name of the kernel you want to remove
+# List all kernels and grab the name of the kernel you want to remove
 jupyter kernelspec list
 # Remove it
 jupyter kernelspec remove <kernel_name>
@@ -46,11 +46,11 @@ https://stackoverflow.com/questions/42635310/remove-kernel-on-jupyter-notebook
 
 
 
-## :warning: Works on python 3.12, borken on python 3.13
+## :warning: Works on python 3.12, broken on python 3.13
 
 
 
-## :warning: If you relocate this folder on your device you have to:
+## :warning: If you relocate this folder on your device, you have to:
 
 1. remove and reinstall pipenv:
 ```
