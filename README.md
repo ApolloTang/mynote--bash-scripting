@@ -1,24 +1,52 @@
+## To Run:
+
+If you have already installed, simply run 
+
+```
+pipenv run jupyter lab
+```
+
 
 
 ## To Install:
 
+Install the required python package from pipfile:
+
 ```
-pipenv install
+PIPENV_VENV_IN_PROJECT=1 pipenv install
+```
+
+Intialized bash kernel:
+
+```
 pipenv shell 
 python -m bash_kernel.install
 ```
 
-
-
-
-
-## To Run after installation:
+Then you are ready to run jupyter lab with Bash kernel:
 
 ```
-pipenv run jupyter notebook
+pipenv run jupyter lab
 ```
 
+Ref: https://github.com/takluyver/bash_kernel
 
+
+
+## To reinstall bash kernel if something goes wrong:
+
+```
+# List all kernels and grap the name of the kernel you want to remove
+jupyter kernelspec list
+# Remove it
+jupyter kernelspec remove <kernel_name>
+```
+
+https://stackoverflow.com/questions/42635310/remove-kernel-on-jupyter-notebook
+
+
+
+## :warning: Works on python 3.12, borken on python 3.13
 
 
 
