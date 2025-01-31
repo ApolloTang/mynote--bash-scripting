@@ -1,0 +1,1 @@
+ [bash - Script to change current directory (cd, pwd) - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/27139/script-to-change-current-directory-cd-pwd) 
