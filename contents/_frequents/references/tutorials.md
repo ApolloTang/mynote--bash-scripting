@@ -102,3 +102,6 @@ Repo: https://github.com/lhunath/guide.bash.academy
 
 
 
+## To Check
+
+ [BASH Shell Programming](https://www.softouch.on.ca/bash/) 
