@@ -39,7 +39,9 @@ list all built-in commands in Bash:
 compgen -b
 ```
 
-This will output a list of all the built-in commands available in your Bash shell.
+
+
+
 
 ## What is the difference between the -c and -b flags
 
