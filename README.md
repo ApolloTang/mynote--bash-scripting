@@ -1,93 +1,110 @@
-## To Run:
+# Jupyter and Bash-kernel installation
 
-If you have already installed it, simply run 
+
+
+## Github repo
+
+[takluyver/bash_kernel: A bash kernel for IPython](https://github.com/takluyver/bash_kernel) 
+
+
+
+## Important note on installation
+
+#### Update: Jan 2025 
+
+[bash_kernel is not working with python@3.13](https://github.com/takluyver/bash_kernel/issues/146#ref-pullrequest-2756142735) because imghdr module has been removed. So make sure you install jupyter with python@3.12
+
+   ```
+pyenv shell 3.12
+pipx install --python /Users/apollotang/.pyenv/shims/python --include-deps jupyter
+   ```
+
+Otherwise pipx will install jupyter with the latest python (ie., 3.13)
+
+
+
+### Installation:
+
+1. Install jupyter with pipx, it is better to install jupyter as an app in a global location:
+
+   ```
+   pyenv shell 3.12
+   pipx install --python /Users/apollotang/.pyenv/shims/python --include-deps jupyter
+   ```
+
+   The above will install jupyter at: 
+
+   ```
+   ~/.local/pipx/venvs/jupyter/
+   ```
+
+2. Make sure your bash_kernal is installed in the pipx's  jupyter venv. To do this you use the pipx's `inject` command: 
+
+   ```
+   pipx inject --include-apps --include-deps jupyter bash_kernel
+   ```
+
+   The will install bash_kernel at this location: 
+
+   ```
+   ~/.local/pipx/venvs/jupyter/lib/python3.12/site-packages/bash_kernel
+   ```
+
+3. Then activate bash_kernel with the same python that you use to run jupyter: 
+
+   ```
+   cd ~/.local/pipx/venvs/jupyter/
+   source bin/activate
+   python -m bash_kernel.install
+   deactivate
+   ```
+
+
+
+After activation (step 3 above) bash kernel will be registered to the kernel registry.  To check:
+
+   ```
+$ jupyter kernelspec list
+Available kernels:
+  bash       ~/Library/Jupyter/kernels/bash
+  python3    ~/.local/pipx/venvs/jupyter/share/jupyter/kernels/python3
+   ```
+
+Note above, the location of bash kernel registration: 
+
+   ```
+~/Library/Jupyter/kernels/bash
+   ```
+
+ To check:
+
+   ```
+$ ls ~/Library/Jupyter/kernels/bash
+kernel.json  logo-svg.svg
+
+$ cat ~/Library/Jupyter/kernels/bash/kernel.json | jq
+{
+  "argv": [
+    "~/.local/pipx/venvs/jupyter/bin/python",
+    "-m",
+    "bash_kernel",
+    "-f",
+    "{connection_file}"
+  ],
+  "codemirror_mode": "shell",
+  "display_name": "Bash",
+  "env": {
+    "PS1": "$"
+  },
+  "language": "bash"
+}
+   ```
+
+Note argv passing python in `~/.local/pipx/venvs/jupyter/bin/python` to execute bash_kernel: 
 
 ```
-pipenv run jupyter lab
+~/.local/pipx/venvs/jupyter/bin/python -m bash_kernel -f {connection_file}
 ```
 
 
-
-## To Install:
-
-Install the required Python package from pipfile:
-
-```
-PIPENV_VENV_IN_PROJECT=1 pipenv install
-```
-
-Initialized bash kernel:
-
-```
-pipenv shell 
-python -m bash_kernel.install
-```
-
-Then you are ready to run Jupyter Lab with Bash kernel:
-
-```
-pipenv run jupyter lab
-```
-
-Ref: https://github.com/takluyver/bash_kernel
-
-
-
-## To reinstall bash kernel if something goes wrong:
-
-```
-# List all kernels and grab the name of the kernel you want to remove
-jupyter kernelspec list
-# Remove it
-jupyter kernelspec remove <kernel_name>
-```
-
-https://stackoverflow.com/questions/42635310/remove-kernel-on-jupyter-notebook
-
-
-
-## :warning: Works on python 3.12, broken on python 3.13
-
-
-
-## :warning: If you relocate this folder on your device, you have to:
-
-1. remove and reinstall pipenv:
-```
-pipenv --rm
-pipenv install
-```
-
-2. remove and reinstall Jupyter's bash kernel
-```
-pipenv shell 
-jupyter kernelspec uninstall bash
-python -m bash_kernel.install
-```
-
-Note: you can list the installed kernels with:
-
-```
-jupyter kernelspec list
-```
-
-Reference:
-
-https://github.com/takluyver/bash_kernel
-
-https://stackoverflow.com/questions/42635310/remove-kernel-on-jupyter-notebook
-
-
-
-
-
-## Bugs
-
-### Kernel sometimes does not work in VSCode
-
-### Rendering on github is sometimes problematic:
-
-see:  [mynote--bash-scripting/contents/variable-scope/variable-scope-of-a-function/variable-scope-of-a-function.ipynb at main · ApolloTang/mynote--bash-scripting](https://github.com/ApolloTang/mynote--bash-scripting/blob/main/contents/variable-scope/variable-scope-of-a-function/variable-scope-of-a-function.ipynb) 
-
-![bug on github](./imgs/rendering-bug-on-github.png)
 
