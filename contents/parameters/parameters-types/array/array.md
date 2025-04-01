@@ -1,6 +1,6 @@
 # Array in Bash
 
-Bash only support one dimension arrays,  multidimensional arrays is not supported.  
+Bash only support one dimension arrays,  multidimensional arrays is not supported.
 
 ## Array type:
 
@@ -25,7 +25,7 @@ Bash supports two different types of one-dimensional arrays:
 
 ## Naming of Array
 
-Any valid ordinary scalar parameter name is also a valid array name: 
+Any valid ordinary scalar (non-array) parameter name is also a valid array name:
 
 ```
 [[:alpha:]_][[:alnum:]_]*
@@ -35,9 +35,9 @@ Any valid ordinary scalar parameter name is also a valid array name:
 
 ## Referencing member of array:
 
-The overall syntax is 
+The overall syntax is
 
-``` 
+```
 arrayName[subscript]
 ```
 
@@ -53,4 +53,3 @@ For *associative* arrays, `subscript` is any nonempty string.
 4. process substitutions.
 
 Within parameter expansions or as an argument to the `unset`  builtin, the special subscripts `*` and `@` is used to reference to all elements of arrays similar to that of the mass-expanding positional parameters.
-
