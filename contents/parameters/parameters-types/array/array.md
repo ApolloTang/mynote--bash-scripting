@@ -41,7 +41,7 @@ The overall syntax is
 arrayName[subscript]
 ```
 
-For *indexed* arrays, `subscript` is any valid *arithmetic expression*
+For *indexed* arrays, `subscript` is any valid *arithmetic expression* (**see:** [Section link](./array-subscript-arithmetic-expression/index.md))
 
 For *associative* arrays, `subscript` is any nonempty string.
 
