@@ -4,7 +4,10 @@
 
 Without double quote, both `$*` and `$@` are equivalent, they both expands to all the words of all the positional parameters.
 
-When `$*` and `$@` are surrounded with a double quote (namely: `"$*"` and `"$@"`): `"$*"` expands all words of all positional parameters into a single string containing them all, separated by the first character of the IFS variable; whist `"$@"` expands all words of all positional parameters into a *list* of them all as individual words.
+`$*` and `$@` behavaiour differently inside double quote: 
+
+- `"$*"` expands all words of all positional parameters into a single string containing them all, separated by the first character of the IFS variable
+- `"$@"` expands all words of all positional parameters into a *list* of them all as individual words.
 
 [§link-to-ipynb](./ipynb--special-paramerter-for-positional-para/README.ipynb)
 

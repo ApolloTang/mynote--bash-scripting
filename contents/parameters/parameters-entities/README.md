@@ -1,20 +1,14 @@
 # Parameters Entities
 
-
-
 In Bash, the term parameters refers to the entities that store values.
 
-Parameters can be divided into 3 categories:
+Parameters can be rougly divided into 2 categories:
 
 1. variables
-2. positional parameter
 3. special parameter
 
 
-
-
-
-## 1. Variable 
+## 1. Variable
 
 The variables are the parameters that are defined by the user.  (Ref: [geeksforgeeks.org](https://www.geeksforgeeks.org/shell-script-to-demonstrate-special-parameters-with-example/) )
 
@@ -48,37 +42,31 @@ A subset of the variables are the *environment and shell variables*.
 
 
 
-## 2. Positional parameter
+## 2. Special Parameters
 
-**The naming of positional parameter**: 
-The positional parameter uses positive integers as its name. 
+The shell treats several parameters specially.
 
-Note that `0` is not a positional parameter (Ref: [bash - Why $0 is not a positional parameter? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/412707/why-0-is-not-a-positional-parameter) ).
+These parameters are named with a single special symbol (or non-alphanumeric),  `?`, `#`, `*`, `@`, `!`, `-`, `$`, `_`, or pure whole numbers (`0`, `1`, `2`, ...`11`, `12`).  
 
-When a positional parameter consisting of more than a single digit is expanded, it must be enclosed in braces:
-```
-$1, $2, $3, ..., ${10}, ${11}
-```
+They are called "special" because each of them have a specific, built-in purposes defined by the shell.
 
-**The value of positional parameter**
+In general, special parameters provide information about the shell's state, the environment, script arguments, the results of commands, and other internal details. One important things to know about these parameter is these parameters are read only, you can not directly assignment or change their value.
 
-Positional parameters receive their value from the script’s or function's arguments when the script or function are invoked. You cannot assign this parameter using the assignment statements (`name=[value]`) similar to that in the shell's user defined variables. However, you can reassign them using the [set](https://www.gnu.org/software/bash/manual/bash.html#index-set) and [shift](https://www.gnu.org/software/bash/manual/bash.html#index-shift) built-in commands. See ipynb: [How to set positional parameter](./positional-parameter/ipynb--how-to-set-positional-parameter/index.ipynb)
+We can roughly group these special parameters according to their functions:
 
-**Section** [§link-to-section-on-positional-parameter](./positional-parameter/README.md)
+| Symbol(s)                                     | High level description                                       | Link  to section                               |
+| --------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------- |
+| natural numbers: `1`, `2`, ...`11`, `12`, etc | individual positional parameter                              | [§link](./special-parameters/positional-parameter/README.md)        |
+| `0`                                           | script name                                                  |                                                |
+| `#`, `*`, `@`                                 | positional parameter related                                 | [§link](./special-parameters/positional-parameter-related/README.md) |
+| `-`                                           | optional flags related                                       |                                                |
+| `$`, `!`                                      | process related                                              |                                                |
+| `?`                                           | exit status related                                          |                                                |
+| `_`                                           | the last argument of the previous foreground command. Also holds the script name on startup |                                                |
 
-**Reference:** [Positional Parameters (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Positional-Parameters.html) 
+More reading:
 
-
-## 3. Special parameter
-
-The shell treats several parameters specially. These parameters use single special characters as their name: #, *, @, etc.
-
-You can only read these parameters; assignment to them is not allowed.
-
-**Section** [§link-to-section-on-special-parameter](./special-parameters/README.md)
-
-**Reference:** [Special Parameters (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Special-Parameters.html) 
-
+[Special Parameters (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Special-Parameters.html#Special-Parameters)
 
 
 
