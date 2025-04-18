@@ -62,7 +62,7 @@ We can roughly group these special parameters according to their functions:
 | `-`                                           | optional flags related                                       |                                                |
 | `$`, `!`                                      | process related                                              |                                                |
 | `?`                                           | exit status related                                          |                                                |
-| `_`                                           | the last argument of the previous foreground command. Also holds the script name on startup |                                                |
+| `_`                                           | the last argument of the previous foreground command. Also holds the script name on startup |[§link](./special-parameters/underscore-parameter/README.md)                                               |
 
 More reading:
 
